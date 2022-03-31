@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/layoutCouleurs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/couleur1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ED0606"
+                android:tag="couleur1" />
+
+            <Button
+                android:id="@+id/couleur2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#9C27B0"
+                android:tag="couleur2" />
+
+            <Button
+                android:id="@+id/couleur3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#673AB7"
+                android:tag="couleur3" />
+
+            <Button
+                android:id="@+id/couleur4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#3F51B5"
+                android:tag="couleur4" />
+
+            <Button
+                android:id="@+id/couleur5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:tag="couleur5" />
+
+            <Button
+                android:id="@+id/couleur6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:tag="couleur6" />
+
+            <Button
+                android:id="@+id/couleur7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFEB3B"
+                android:tag="couleur7" />
+
+            <Button
+                android:id="@+id/couleur8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:tag="couleur8" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/layoutDessin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/layoutButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgCrayon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="crayon"
+                app:srcCompat="@drawable/crayon" />
+
+            <ImageView
+                android:id="@+id/imgEfface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="efface"
+                app:srcCompat="@drawable/efface" />
+
+            <ImageView
+                android:id="@+id/imgEpaisseurTrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="epaisseur"
+                app:srcCompat="@drawable/largeur_trait" />
+
+            <ImageView
+                android:id="@+id/imgPipette"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="pipette"
+                app:srcCompat="@drawable/pipette" />
+
+            <ImageView
+                android:id="@+id/imgRemplir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="remplir"
+                app:srcCompat="@drawable/remplir" />
+
+            <ImageView
+                android:id="@+id/imgCercle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="cercle"
+                app:srcCompat="@drawable/cercle" />
+
+            <ImageView
+                android:id="@+id/imgTriangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="triangle"
+                app:srcCompat="@drawable/triangle" />
+
+            <ImageView
+                android:id="@+id/imgRectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="rectangle"
+                app:srcCompat="@drawable/rectangle" />
+
+            <ImageView
+                android:id="@+id/imgUndo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="undo"
+                app:srcCompat="@drawable/undo" />
+
+            <ImageView
+                android:id="@+id/imgRedo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="redo"
+                app:srcCompat="@drawable/redo" />
+
+            <ImageView
+                android:id="@+id/imgSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:tag="save"
+                app:srcCompat="@drawable/enregistrer" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
