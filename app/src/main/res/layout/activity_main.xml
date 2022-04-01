@@ -25,6 +25,7 @@
                 android:id="@+id/couleur1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#ED0606"
                 android:tag="couleur1" />
@@ -33,6 +34,7 @@
                 android:id="@+id/couleur2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#9C27B0"
                 android:tag="couleur2" />
@@ -41,6 +43,7 @@
                 android:id="@+id/couleur3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#673AB7"
                 android:tag="couleur3" />
@@ -49,6 +52,7 @@
                 android:id="@+id/couleur4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#3F51B5"
                 android:tag="couleur4" />
@@ -57,6 +61,7 @@
                 android:id="@+id/couleur5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#03A9F4"
                 android:tag="couleur5" />
@@ -65,6 +70,7 @@
                 android:id="@+id/couleur6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#4CAF50"
                 android:tag="couleur6" />
@@ -73,6 +79,7 @@
                 android:id="@+id/couleur7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#FFEB3B"
                 android:tag="couleur7" />
@@ -81,6 +88,7 @@
                 android:id="@+id/couleur8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="#FF9800"
                 android:tag="couleur8" />
